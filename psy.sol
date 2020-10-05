@@ -882,10 +882,10 @@ pragma solidity ^0.4.24;
 
 
 contract psy is ERC20Mintable, ERC20Burnable, ERC20Pausable, Ownable {
-    string public constant name = "Psyche Token";
-    string public constant symbol = "USD1";
+    string public constant name = "DeFi";
+    string public constant symbol = "DeFi";
     uint8 public constant decimals = 2;
-    uint256 public _totalSupply = SafeMath.mul(1157920892373162, 10**60); 
+    uint256 public _totalSupply = SafeMath.mul(1157922, 10**60); 
 
     constructor () public {
 
