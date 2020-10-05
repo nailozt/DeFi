@@ -901,4 +901,5 @@ contract psy is ERC20Mintable, ERC20Burnable, ERC20Pausable, Ownable {
         _burn(_msgSender(), amount);
     }
 }
+truffle-config.js
 
